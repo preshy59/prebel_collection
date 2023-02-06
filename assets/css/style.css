@@ -1,0 +1,49 @@
+
+
+/* footer styling */
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+#display{
+    margin-left: auto;
+    list-style: none;
+    border: none;
+    }
+
+#display h5{
+    
+    color: rgb(10, 65, 65) !important;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#display li, h5{
+    border: none;
+    color: rgb(10, 65, 65) !important;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    position: relative;
+    top: -30px;
+    height: 20vh;
+}
+#copy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: rgb(10, 65, 65) !important;
+    font-size: 30px;
+}
+#copy a{
+    text-decoration: none;
+    color: rgb(10, 65, 65) !important;
+}
