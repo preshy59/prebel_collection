@@ -1,4 +1,55 @@
+/* nav styling */
 
+#nav{
+    display: flex;
+   width: 100%;
+    position: fixed;
+    height: 20vh;
+    background-color:rgb(6, 7, 7);
+     z-index: 10;
+    background-size: cover;
+        
+}
+.mainNav{
+    padding-top: 20px;
+}
+
+.logo_head{
+    position: relative;
+    top: 50px;
+    height: 15vh;
+    width: 20vh;
+   
+}
+
+#nav a{
+  color: rgb(5, 96, 96);
+  /* font-size: 30px; */
+ 
+  
+}
+
+#nav a:hover, #nav a:focus{
+  color: rgb(218, 205, 33) !important;
+  font-weight: 600px;
+  
+}
+
+
+.navbar-nav {
+  margin-left: auto;
+  margin-top: 50px;
+  margin-right: 0 !important;
+}
+
+.nav-item a {
+  margin: 20px 15px;
+  font-weight: 400px;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 50px;
+  
+}
 
 /* footer styling */
 .footer{
