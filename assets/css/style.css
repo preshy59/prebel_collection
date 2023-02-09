@@ -155,6 +155,12 @@ body {
 .footer {
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(255, 248, 248);
+
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
     margin-top: 30px;
@@ -165,6 +171,7 @@ body {
     margin-left: auto;
     list-style: none;
     border: none;
+    background-color: inherit;
 }
 
 #display h5 {
@@ -185,18 +192,33 @@ h5 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-#copy {
-    display: flex;
-    flex-direction: column;
+#payment {
     justify-content: center;
     align-items: center;
-    margin: auto;
-    color: rgb(10, 65, 65) !important;
+    color: rgb(2, 49, 49) !important;
     font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+   
+}
+
+
+#copy {
+    justify-content: center;
+    align-items: center;
+    color: rgb(2, 49, 49) !important;
+    font-size: 30px;
+    font-weight: 500;
+    background-color: rgb(255, 248, 248);
 }
 
 #copy a {
     text-decoration: none;
-    color: rgb(10, 65, 65) !important;
+    color: rgb(2, 49, 49) !important;
+   
+}
+
+#copy a:hover{
+    text-decoration: none;
+    color: rgb(210, 188, 15) !important;
 }
