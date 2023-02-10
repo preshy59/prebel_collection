@@ -45,27 +45,27 @@ body {
 .navbar-nav {
     margin-left: auto;
     margin-right: 0 !important;
-  }
-  
-  .nav-item {
+}
+
+.nav-item {
     margin: 0px 15px;
-  }
+}
 
-#mainNav a{
-    color:  rgb(14, 48, 37)!important;
+#mainNav a {
+    color: rgb(14, 48, 37) !important;
     font-weight: 700px;
-   
-  }
 
-  #mainNav a:hover,
-  #mainNava:focus {
+}
+
+#mainNav a:hover,
+#mainNava:focus {
     color: rgb(218, 205, 33) !important;
     font-weight: 700px;
 
 }
 
 /* search section css */
-#quote{
+#quote {
     color: #1a6c51;
     text-align: center;
     margin: auto;
@@ -75,21 +75,21 @@ body {
     font-style: italic;
 }
 
-#section1{
+#section1 {
     display: flex;
     flex-direction: column;
     text-align: center;
     border: none;
-    
+
 }
 
-#form{
+#form {
     display: flex;
     flex-wrap: wrap;
-    width: 100% ;
+    width: 100%;
 }
 
-#search-input{
+#search-input {
     display: block;
     width: 100%;
     margin: 0 30%;
@@ -99,19 +99,20 @@ body {
     border-radius: 60px;
     color: black;
     padding: 0 10px;
-    
-    
+
+
 }
 
-#groupId{
+#groupId {
     display: flex;
     justify-content: center;
     width: 100%;
     margin: 20px auto;
     text-align: center;
-   
+
 }
-#search-button{
+
+#search-button {
     background-color: #1a6c51;
     color: white;
     font-size: 20px;
@@ -119,34 +120,35 @@ body {
     padding: 5px 10px;
     border-radius: 20px;
     margin: 0;
-     }
+}
 
-.database{
+.database {
     display: flex;
     flex-direction: column;
     margin: 20px;
 }
 
-.nutrient{
+.nutrient {
     display: flex;
     flex-direction: column;
-   
-   
-   }
-   #list-of-forecast{
+
+
+}
+
+#list-of-forecast {
     /* margin: auto; */
     width: auto !important;
     align-items: center;
     color: #1a6c51;
     border: #1a6c51;
-    
-   }
 
-   #list-of-forecast h1{
+}
+
+#list-of-forecast h1 {
     text-transform: uppercase;
-   }
+}
 
-   #list-of-forecast p{
+#list-of-forecast p {
     font-size: 20px;
     padding: 5px;
     text-align: center;
@@ -160,12 +162,13 @@ body {
     background-color: rgb(255, 248, 248);
 
 }
-.contact{
+
+.contact {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
-    margin:20px;
+    margin: 20px;
 }
 
 #display {
@@ -173,24 +176,28 @@ body {
     list-style: none;
     border: none;
     margin: 20px;
-    /* background-color: inherit; */
+    width: auto !important;
+    background-color: inherit;
 }
 
-/* #display h5 {
-
-    color: rgb(10, 65, 65) !important;
-    font-weight: bolder;
-    font-size: 1.5rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-} */
-
-#display li,
-h5 {
+#display h5 {
     text-align: center;
     border: none;
+    margin: 0;
+    padding: 5px;
     color: rgb(10, 65, 65) !important;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+}
+
+#display li {
+    text-align: center;
+    border: none;
+    margin: 0;
+    background-color: inherit;
+    padding: 5px;
+    color: rgb(10, 65, 65) !important;
+    font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -200,39 +207,80 @@ h5 {
     color: rgb(2, 49, 49) !important;
     font-size: 30px;
     font-weight: 500;
-    margin-bottom: 20px;
-   
+    /* margin-bottom: 20px; */
+    margin: 0;
+    padding: 0;
+
 }
 
-.footer_content2{
+.footer_content2 {
     display: flex;
     flex-direction: row;
-    float: right;
-    
-}
-.footer_content1{
-     display: flex;
-    flex-direction: row;
-    float: left;
+    background-color: rgb(255, 248, 248);
+
 }
 
+.footer_content1 {
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgb(255, 248, 248);
+
+}
+
+
+#button-addon2 {
+    background-color: #1a6c51;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 40px;
+
+}
+
+#email {
+
+    height: 40px;
+    background-color: #f0f8ff;
+    border: 2px solid #1a6c51;
+    border-radius: 60px;
+    color: black;
+
+}
+
+#logo {
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 60px;
+}
+
+#subscribe {
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 100%;
+}
 
 #copy {
     justify-content: center;
     align-items: center;
     color: rgb(2, 49, 49) !important;
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
     background-color: rgb(255, 248, 248);
 }
 
 #copy a {
     text-decoration: none;
     color: rgb(2, 49, 49) !important;
-   
+
 }
 
-#copy a:hover{
+#copy a:hover {
     text-decoration: none;
     color: rgb(210, 188, 15) !important;
 }
