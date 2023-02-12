@@ -168,7 +168,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
-    margin: 20px;
+    /* margin: 20px; */
 }
 
 #display {
@@ -202,15 +202,40 @@ body {
 }
 
 #payment {
+    
     justify-content: center;
     align-items: center;
-    color: rgb(2, 49, 49) !important;
-    font-size: 30px;
-    font-weight: 500;
+    
     /* margin-bottom: 20px; */
     margin: 0;
-    padding: 0;
+    padding: 0 !important;
 
+}
+
+#payment p{
+    margin-bottom: 0 !important;
+    color: rgb(2, 49, 49) !important;
+    font-size: 20px;
+     font-weight: 400;
+}
+
+#cards{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+margin: 0;
+}
+
+#cards img{
+    width: 40px;
+    height: 30px;
+    margin: 10px;
+}
+
+#cards a:hover {
+    text-decoration: none;
+    background-color: rgb(210, 188, 15) !important;
 }
 
 .footer_content2 {
@@ -269,9 +294,12 @@ body {
     align-items: center;
     color: rgb(2, 49, 49) !important;
     font-size: 20px;
-    padding: 0;
+    padding: 0 !important;
     margin: 0;
     background-color: rgb(255, 248, 248);
+}
+#copy p{
+    padding: 0;
 }
 
 #copy a {
