@@ -252,7 +252,6 @@ margin: 0;
 .footer_content1 {
     display: flex;
     flex-direction: row;
-
     background-color: rgb(255, 248, 248);
 
 }
@@ -284,7 +283,7 @@ margin: 0;
     height: 150px;
     width: 150px;
     margin-left: 10px;
-    margin-right: 60px;
+    margin-right: 40px;
 }
 
 #subscribe {
