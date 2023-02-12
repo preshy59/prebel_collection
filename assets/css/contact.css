@@ -35,33 +35,7 @@ body {
     margin: 0;
 }
 
-#navbar {
-    background-color: rgb(244, 244, 244) !important;
-    width: 100%;
-    height: inherit;
-}
 
-.navbar-nav {
-    margin-left: auto;
-    margin-right: 0 !important;
-}
-
-.nav-item {
-    margin: 0px 15px;
-}
-
-#mainNav a {
-    color: rgb(14, 48, 37) !important;
-    font-weight: 700px;
-
-}
-
-#mainNav a:hover,
-#mainNava:focus {
-    color: rgb(218, 205, 33) !important;
-    font-weight: 700px;
-
-}
 
 /* contact section styling */
 .container {
