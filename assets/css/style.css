@@ -64,6 +64,12 @@ body {
 
 }
 
+/* slides section css */
+.slide{
+    position: relative;
+    top: 70px;
+}
+
 /* search section css */
 #quote {
     color: #1a6c51;
@@ -168,7 +174,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row;
-    /* margin: 20px; */
+    margin: 20px;
 }
 
 #display {
@@ -205,8 +211,6 @@ body {
     
     justify-content: center;
     align-items: center;
-    
-    /* margin-bottom: 20px; */
     margin: 0;
     padding: 0 !important;
 
