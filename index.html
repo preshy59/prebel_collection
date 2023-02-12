@@ -32,11 +32,75 @@
             <a class="nav-link active" href="contact.html" target="_parent">CONTACT</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">SIGN IN</a>
+            <a class="nav-link active"  data-bs-toggle="modal" data-bs-target="#exampleModal">SIGN IN</a>
           </li>
         </ul>
       </div>
       </nav>
+
+      <!-- sign in section -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">LOG IN</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Email:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Password:</label>
+            <input type="password" class="form-control" id="recipient-password">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Log In</button>
+        <button type="button" class="btn btn-primary " data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#exampleModal1">Sign Up</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- sign up section -->
+      <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">SIGN UP</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Full Name:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Email:</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Password:</label>
+                  <input type="password" class="form-control" id="recipient-password">
+                </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label"> Confirm Password:</label>
+                  <input type="password" class="form-control" id="recipient-password">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#exampleModal">Log In</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal" >Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
   
 
   <!-- display section -->
