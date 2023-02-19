@@ -71,8 +71,50 @@ body {
    
 }
 
-/* search section css */
-#quote {
+/* shop section */
+
+.card-deck {
+   position: relative;
+   top: 30px;
+    width: 100%;
+    /* height: 500px; */
+    margin: 70px 20px 20px 20px;
+
+    /**used to scroll text*/
+    white-space: nowrap;    
+    overflow-x: scroll;
+    overflow-y: hidden;
+    /**keep scrolling when
+      *finger or cursor scrolling*/
+    -webkit-overflow-scrolling: touch; 
+}
+.card {
+    background-color: red;
+    width: fit-content !important;
+    height: fit-content;
+    float: none;
+    display: inline-block !important;
+    }
+
+/*to hide the scrollbars*/
+::-webkit-scrollbar {
+    display: none;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+#section1 {
+    margin: auto;
+    position: relative;
+    top:80px;
+    display: flex !important;
+    flex-direction: column;
+    text-align: center;
+    border: none;
+
+}#quote {
     color: #1a6c51;
     text-align: center;
     margin: auto;
@@ -82,84 +124,6 @@ body {
     font-style: italic;
 }
 
-#section1 {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border: none;
-
-}
-
-#form {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-#search-input {
-    display: block;
-    width: 100%;
-    margin: 0 30%;
-    height: 50px;
-    background-color: #f0f8ff;
-    border: 2px solid #1a6c51;
-    border-radius: 60px;
-    color: black;
-    padding: 0 10px;
-
-
-}
-
-#groupId {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin: 20px auto;
-    text-align: center;
-
-}
-
-#search-button {
-    background-color: #1a6c51;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 20px;
-    margin: 0;
-}
-
-.database {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-}
-
-.nutrient {
-    display: flex;
-    flex-direction: column;
-
-
-}
-
-#list-of-forecast {
-    /* margin: auto; */
-    width: auto !important;
-    align-items: center;
-    color: #1a6c51;
-    border: #1a6c51;
-
-}
-
-#list-of-forecast h1 {
-    text-transform: uppercase;
-}
-
-#list-of-forecast p {
-    font-size: 20px;
-    padding: 5px;
-    text-align: center;
-}
 
 /* footer styling */
 .footer {
@@ -167,6 +131,7 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     background-color: rgb(255, 248, 248);
+    margin-top: 80px;
 
 }
 

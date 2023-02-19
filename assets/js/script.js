@@ -1,3 +1,23 @@
+let userInput = document.querySelector("#search-input");
+let searchBtn = document.querySelector("#search-button");
+let view = document.querySelector("viewItem");
+let items = document.querySelector("#listItem");
+
+
+searchBtn.addEventListener("click", function (event) {
+    event.preventDefault();
+
+    let choices = userInput.value;
+
+
+    appearlSearch(choices);
+
+    
+})
+
+
+function appearlSearch(userChoice) {
+    
 const options = {
 	method: 'GET',
 	headers: {
@@ -6,7 +26,12 @@ const options = {
 	}
 };
 
-fetch('https://ebay-search-result.p.rapidapi.com/search/shoes', options)
+fetch(`https://ebay-search-result.p.rapidapi.com/search/${userChoice}`, options)
 	.then(response => response.json())
 	.then(response => console.log(response))
 	.catch(err => console.error(err));
+
+    choiceDeatils(userChoice);
+
+}
+
